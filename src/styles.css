@@ -49,8 +49,45 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 2fr 2fr;
+  margin-top: 10px;
+  padding: 20px 30px;
+}
+
+.grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.grid li {
+  font-weight: 200;
+}
+
+.grid h3 {
+  letter-spacing: 0px;
+  color: white;
+}
+
+.grid p {
+  color: white;
+  opacity: 0.6;
+  font-weight: 200;
+}
+
 footer {
-  text-align: center;
+  background: linear-gradient(rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.5)),
+    url("../images/buffalo-cropped-2.jpg");
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer a {
+  color: white;
 }
 
 @media (max-width: 900px) {
