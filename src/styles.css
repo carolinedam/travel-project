@@ -50,6 +50,20 @@ header a {
   text-transform: uppercase;
 }
 
+main a {
+  background: darkblue;
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  padding: 16px;
+}
+
 .main-image {
   max-width: 400px;
 }
@@ -106,6 +120,45 @@ header a {
 
 .grid li {
   font-weight: 200;
+}
+
+.cards-section {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  margin-top: 30px;
+}
+
+.cards p {
+  line-height: 2;
+  padding: 0px 10px 10px 10px;
+}
+
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.card-img {
+  max-width: 100%;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
 }
 
 .footer-grid h3 {
