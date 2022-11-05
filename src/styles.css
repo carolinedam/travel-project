@@ -10,7 +10,6 @@ header {
   background-repeat: none;
   color: white;
   text-align: center;
-  max-width: 1400px;
   padding: 200px 0;
 }
 
@@ -64,14 +63,12 @@ header a {
   padding: 16px;
 }
 
-.main-image {
-  max-width: 400px;
-}
-
 .main-section {
   background: white;
-  max-width: 100%;
+  display: inline-block;
+  margin-top: 0 auto;
 }
+
 main h3 {
   font-weight: 700;
   text-transform: uppercase;
@@ -117,13 +114,13 @@ main h2 {
 .cards-section {
   background-color: aliceblue;
   text-align: center;
-  padding: 50px;
+  padding: 100px 0px 75px 0px;
 }
 
-.cards {
+.grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 20px;
   text-align: center;
 }
 
@@ -132,9 +129,9 @@ main h2 {
   margin-top: 30px;
 }
 
-.cards p {
+.card p {
   line-height: 2;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 15px 15px 15px;
 }
 
 .card-header {
@@ -152,6 +149,19 @@ main h2 {
 
 .card-footer {
   padding: 0 30px 30px;
+}
+
+.videos-section {
+  background: white;
+  text-align: center;
+  padding: 100px 0px 5px 0px;
+  margin: 0 auto;
+}
+.embed {
+  aspect-ratio: 16/9;
+  padding: 40px 0;
+  margin: 20px auto;
+  width: 100%;
 }
 
 .footer-grid h3 {
@@ -190,21 +200,29 @@ footer a {
     font-size: 12px;
   }
 
-  .cards {
+  .grid-3-columns {
     grid-template-columns: 1fr;
+    grid-gap: 50px;
+    margin: 50px auto;
   }
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
-    margin: 100px auto;
+    grid-gap: 0px;
+    margin: 50px auto;
+  }
+
+  .embed {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0px;
   }
 
   .main-image {
-    max-width: 100%;
+    width: 100%;
   }
 
-  .main-section {
+  section {
     margin: 0 auto;
     padding: 0;
   }
