@@ -124,7 +124,7 @@ main h2 {
 .cards-section {
   background-color: aliceblue;
   text-align: center;
-  padding: 100px 0px 75px 0px;
+  padding: 125px 0px 125px 0px;
 }
 
 .grid-3-columns {
@@ -164,7 +164,7 @@ main h2 {
 .videos-section {
   background: white;
   text-align: center;
-  padding: 100px 0px 5px 0px;
+  padding: 125px 0px 100px 0px;
   margin: 0 auto;
 }
 .embed {
